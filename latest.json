@@ -1,0 +1,9 @@
+{
+  "version": "2.1.1",
+  "apk": "https://github.com/AbdullahAlHallak/miqat-alsham/releases/latest/download/MiqatAlSham.apk",
+  "notes": [
+    "مسار الشمس في الشاشة الرئيسية مع أوقات الصلاة عليه",
+    "إصلاح ظهور الشعار أسفل الإعدادات",
+    "رسائل أوضح في الوضع الداكن"
+  ]
+}
