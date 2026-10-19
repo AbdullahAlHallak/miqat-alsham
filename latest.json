@@ -1,9 +1,9 @@
 {
-  "version": "2.5.0",
+  "version": "2.5.1",
   "apk": "https://github.com/AbdullahAlHallak/miqat-alsham/releases/latest/download/MiqatAlSham.apk",
   "notes": [
     "إشعار لما تنزل نسخة جديدة حتى لو ما فتحت التطبيق",
-    "شاشة بداية جديدة وشاشة كاملة وقت الأذان",
+    "شاشة بداية جديدة بشعار الجامع",
     "عدّاد بأرقام متحركة وحركة أنعم بكل التطبيق"
   ]
 }
