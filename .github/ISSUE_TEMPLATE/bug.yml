@@ -1,0 +1,54 @@
+name: مشكلة بالتطبيق
+description: شي ما عم يشتغل متل ما لازم (الأذان، الأوقات، القبلة…)
+title: "[مشكلة] "
+labels: ["مشكلة"]
+body:
+  - type: markdown
+    attributes:
+      value: "شكراً إنك عم تساعدنا نحسّن ميقات الشام 🌙 كل ما كانت التفاصيل أوضح، كل ما صلّحناها أسرع."
+  - type: dropdown
+    id: area
+    attributes:
+      label: وين المشكلة؟
+      options:
+        - الأذان أو التذكير ما وصل
+        - الأوقات غلط
+        - القبلة أو البوصلة
+        - أقرب المساجد
+        - الويدجت
+        - التحديث
+        - شي تاني
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: شو صار؟
+      description: احكيلنا شو عملت، وشو كنت متوقع، وشو صار فعلاً.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: نسخة التطبيق
+      description: مكتوبة بآخر صفحة الإعدادات
+      placeholder: "مثلاً ٢٫٦"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: نوع الجوال ونسخة أندرويد
+      placeholder: "مثلاً Redmi 10C · أندرويد ١٢"
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: المدينة (إذا المشكلة بالأوقات)
+      placeholder: "مثلاً دمشق"
+  - type: textarea
+    id: screens
+    attributes:
+      label: صور الشاشة
+      description: اسحب الصور لهون إذا عندك

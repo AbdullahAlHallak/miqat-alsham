@@ -1,0 +1,16 @@
+name: فكرة أو اقتراح
+description: ميزة جديدة أو تحسين بتحب تشوفه
+title: "[اقتراح] "
+labels: ["اقتراح"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: شو فكرتك؟
+      description: احكيلنا شو بدك يصير، وليش رح يفيدك.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: مثال أو صورة (اختياري)

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: تحميل أحدث نسخة
+    url: https://github.com/AbdullahAlHallak/miqat-alsham/releases/latest
+    about: إذا عندك مشكلة، جرّب أول شي تحدّث لآخر نسخة
